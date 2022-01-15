@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+ body{
+    font-family: 'Lobster', cursive;
+    background: #fff;
+    color: #393939;
+}
+ img{
+     float: left;
+margin: 2%;
+}
+.red{
+    float: right;
+}
+.btnspan {         
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    transition: 0.3s;
+    background-color: darkgrey;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: darkkhaki;
+    padding: 100px 100px;
+ }
+ .wrapper > div {
+    flex: 1 1 200px;
+ }
